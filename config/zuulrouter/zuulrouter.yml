@@ -4,3 +4,4 @@ zuul:
   - 'organizationservice'  #排除某项根据eureka自动生成的映射   
   routes:  #为特定服务指定路由映射·
     organizationservice: /myorganization/**
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10500
